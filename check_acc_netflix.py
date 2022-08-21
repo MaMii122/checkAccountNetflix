@@ -21,7 +21,7 @@ br.addheaders = [('User-agent', 'Firefox')]
 try:
 	with open("listAcc.txt", "r") as filestream:
 		for line in filestream:
-			br.open('https://www.netflix.com/fr/login')
+			br.open('https://www.netflix.com/tr/login')
 			currentline = line.split(':')
 			print('currentline : ', currentline)
 			# print('br before : ', br)
